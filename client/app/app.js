@@ -10,7 +10,7 @@ angular.module('event', [
     //   controller: 'AuthController'
     // })
     .when('/signup', {
-      templateUrl: 'app/auth/signup.html',
+      templateUrl: 'app/auth/UserSignup.html',
       controller: 'AuthController'
     })
     .otherwise({redirectTo:'/signup'})
